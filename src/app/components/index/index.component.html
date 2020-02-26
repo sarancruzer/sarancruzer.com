@@ -1,0 +1,111 @@
+<div class="page">
+		
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="centrize full-width">
+            <div class="vertical-center">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- background -->
+    <div class="background"></div>
+
+    <!--
+        Container
+    -->
+    <div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+
+        <!--
+            Header
+        -->
+        <header class="header">
+
+            <!-- menu -->
+            <div class="top-menu">
+                <ul>
+                    <li class="active">
+                        <a href="javascript:;">
+                            <span class="icon ion-person"></span>
+                            <span class="link">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume-card">
+                            <span class="icon ion-android-list"></span>
+                            <span class="link">Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#works-card">
+                            <span class="icon ion-paintbrush"></span>
+                            <span class="link">Works</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog-card">
+                            <span class="icon ion-chatbox-working"></span>
+                            <span class="link">Blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacts-card">
+                            <span class="icon ion-at"></span>
+                            <span class="link">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+
+        <!--
+            Card - Started
+        -->
+        <div class="card-started active" id="home-card">
+
+            <app-home></app-home>
+
+        </div>
+
+        <!-- 
+            Card - About
+        -->
+        <div class="card-inner animated " id="about-card">
+            <app-about></app-about>
+        </div>
+
+        <!--
+            Card - Resume
+        -->
+        <div class="card-inner" id="resume-card">
+            <app-resume></app-resume>
+        </div>
+
+        <!--
+            Card - Works
+        -->
+        <div class="card-inner " id="works-card">
+            <app-works></app-works>
+        </div>
+
+        <!--
+            Card - Blog
+        -->
+        <div class="card-inner blog" id="blog-card">
+            <app-blogs></app-blogs>
+        </div>
+
+        <!--
+            Card - Contacts
+        -->
+        <div class="card-inner contacts" id="contacts-card">
+            <app-contact></app-contact>
+        </div>
+
+    </div>
+</div>
